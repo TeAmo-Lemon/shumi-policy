@@ -3,84 +3,224 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for Shumi">
-  <title>Privacy Policy | Shumi</title>
+  <meta name="description" content="Privacy Policy for the Smile automated customer inquiry and quotation service operated by JIANGSU SMILE TOOLS CO., LTD.">
+  <title>Privacy Policy | Smile</title>
   <style>
     :root {
       color-scheme: light;
-      --bg: #f6f7fb;
-      --surface: #ffffff;
-      --text: #172033;
-      --muted: #667085;
-      --line: #e4e7ec;
-      --accent: #6c5ce7;
+      --bg: #f5f3ee;
+      --surface: #fffdf9;
+      --text: #201e1b;
+      --muted: #6c665f;
+      --line: #e5dfd5;
+      --accent: #9a5d31;
+      --accent-soft: #f4e8db;
+      --green: #47634e;
     }
     * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      background: var(--bg);
+      background:
+        radial-gradient(circle at top left, #f7e9dc 0, transparent 30rem),
+        var(--bg);
       color: var(--text);
-      font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
-    main {
-      width: min(860px, calc(100% - 32px));
-      margin: 56px auto;
-      padding: clamp(28px, 6vw, 64px);
+    .page {
+      width: min(920px, calc(100% - 32px));
+      margin: 48px auto;
+      overflow: hidden;
       background: var(--surface);
       border: 1px solid var(--line);
-      border-radius: 24px;
-      box-shadow: 0 20px 60px rgba(23, 32, 51, .08);
+      border-radius: 28px;
+      box-shadow: 0 24px 70px rgba(45, 35, 25, .09);
     }
-    h1 { margin: 0 0 8px; font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.1; letter-spacing: -.04em; }
-    h2 { margin: 40px 0 10px; font-size: 1.25rem; }
-    p, li { color: #344054; }
-    .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
-    .meta { color: var(--muted); }
-    .notice {
+    header, main, footer { padding: clamp(28px, 6vw, 64px); }
+    header { padding-bottom: 40px; background: linear-gradient(135deg, #fffaf3, #f3e5d6); }
+    main { padding-top: 10px; }
+    h1 {
+      max-width: 700px;
+      margin: 12px 0;
+      font: 700 clamp(2.35rem, 7vw, 4.4rem)/1.05 Georgia, "Times New Roman", serif;
+      letter-spacing: -.04em;
+    }
+    h2 { margin: 44px 0 10px; font-size: 1.35rem; line-height: 1.3; }
+    h3 { margin: 30px 0 8px; font-size: 1.05rem; }
+    p, li { color: #48423c; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    .brand { color: var(--accent); font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    .lead { max-width: 720px; font-size: 1.12rem; }
+    .meta, .small { color: var(--muted); font-size: .94rem; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+    nav a {
+      padding: 8px 13px;
+      color: var(--text);
+      background: rgba(255,255,255,.7);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: .9rem;
+    }
+    .summary, .deletion {
       margin: 28px 0;
-      padding: 16px 18px;
-      background: #f2f0ff;
-      border-left: 4px solid var(--accent);
-      border-radius: 10px;
+      padding: 20px 22px;
+      border-radius: 14px;
     }
-    a { color: var(--accent); }
-    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); }
+    .summary { background: var(--accent-soft); border-left: 4px solid var(--accent); }
+    .deletion { background: #edf3ee; border-left: 4px solid var(--green); }
+    .company {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .card { padding: 18px; border: 1px solid var(--line); border-radius: 14px; }
+    .card strong { display: block; margin-bottom: 4px; }
+    .cn {
+      margin-top: 64px;
+      padding-top: 18px;
+      border-top: 2px solid var(--line);
+    }
+    footer { background: #25231f; color: #ded9d1; }
+    footer p, footer a { color: #ded9d1; }
+    ul { padding-left: 1.25rem; }
+    @media (max-width: 560px) {
+      .page { width: 100%; margin: 0; border: 0; border-radius: 0; }
+      header, main, footer { padding-left: 22px; padding-right: 22px; }
+    }
   </style>
 </head>
 <body>
-  <main>
-    <div class="eyebrow">Shumi</div>
-    <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: September 20, 2026</p>
+  <div class="page">
+    <header>
+      <div class="brand">Smile</div>
+      <h1>Privacy Policy</h1>
+      <p class="lead">For our automated customer inquiry, product introduction, and quotation assistant for custom fragrance products.</p>
+      <p class="meta">Effective date and last updated: September 20, 2026</p>
+      <nav aria-label="Page navigation">
+        <a href="#english">English</a>
+        <a href="#deletion">Data deletion</a>
+        <a href="#chinese">中文</a>
+        <a href="#company">Company details</a>
+      </nav>
+    </header>
 
-    <div class="notice">
-      This page is an initial draft. Product details and contact information will be completed before the application is submitted for review.
-    </div>
+    <main>
+      <section id="english">
+        <div class="summary">
+          <strong>Plain-language summary.</strong> We use customer messages and the contact or account information made available through authorized Meta services to answer product questions, understand customization requirements, and prepare quotations. We do not sell personal data.
+        </div>
 
-    <p>Shumi respects your privacy. This Privacy Policy explains how information is collected, used, stored, and deleted when you use our application and its integrations with Meta products, including Instagram and Facebook.</p>
+        <h2>1. Who We Are</h2>
+        <p>This service is operated by <strong>JIANGSU SMILE TOOLS CO., LTD.</strong> (“Smile,” “we,” “us,” or “our”), an international trade company that supplies custom fragrance products to customers outside China.</p>
 
-    <h2>Information We Collect</h2>
-    <p>Depending on the features you choose to use and the permissions you grant, Shumi may receive information made available through the Instagram or Facebook APIs. The exact categories of information will be listed here once the integration scope is finalized.</p>
+        <h2>2. Scope</h2>
+        <p>This Privacy Policy applies when a potential or existing customer communicates with Smile through our website or through Meta products such as Facebook and Instagram, including when our automated assistant helps answer inquiries, introduce products, collect customization requirements, or prepare a quotation.</p>
 
-    <h2>How We Use Information</h2>
-    <p>We use information only to provide the features requested by the user, maintain the service, protect account security, and comply with applicable legal obligations. We do not sell personal information.</p>
+        <h2>3. Information We May Process</h2>
+        <p>The information we process depends on what you send to us and the permissions available through the relevant Meta service. It may include:</p>
+        <ul>
+          <li>your name, username, account or page identifier, profile picture, and other basic profile information made available by Meta;</li>
+          <li>messages, comments, inquiry details, and the content of your communications with Smile;</li>
+          <li>business contact details you choose to provide, such as company name, email address, telephone number, country, and shipping destination;</li>
+          <li>product and customization requirements, including product type, fragrance, materials, packaging, quantities, target price, artwork, samples, and delivery requirements;</li>
+          <li>quotation history, order-related communications, and customer service records; and</li>
+          <li>basic technical and security records needed to operate and protect the service.</li>
+        </ul>
+        <p>Please do not send sensitive personal information that is unnecessary for a product inquiry or quotation.</p>
 
-    <h2>Information Sharing</h2>
-    <p>We do not share personal information with third parties except when necessary to operate the service, when required by law, or with the user's consent. Any service providers will be required to process information only for the stated purpose.</p>
+        <h2>4. How We Use Information</h2>
+        <p>We process information to:</p>
+        <ul>
+          <li>identify the conversation and respond to customer inquiries;</li>
+          <li>automatically introduce suitable products and customization options;</li>
+          <li>prepare indicative or formal quotations based on the requirements provided;</li>
+          <li>follow up on samples, orders, production, shipping, and after-sales service;</li>
+          <li>improve the accuracy and quality of our customer service tools;</li>
+          <li>prevent abuse, protect our systems, and comply with applicable law; and</li>
+          <li>maintain records needed for legitimate business, accounting, and dispute-resolution purposes.</li>
+        </ul>
+        <p>Automated responses and quotations may require confirmation by our staff. A message generated by the assistant does not create a binding sales contract unless Smile separately confirms the order and commercial terms.</p>
 
-    <h2>Data Retention and Security</h2>
-    <p>We retain information only for as long as needed to provide the service or meet legal requirements. We apply reasonable administrative and technical safeguards designed to protect information from unauthorized access, alteration, or disclosure.</p>
+        <h2>5. Meta Platform Data</h2>
+        <p>When you contact us through Facebook or Instagram, Meta may provide data to us in accordance with your settings, the permissions granted to our application, and Meta's applicable terms. We use that data only to provide the customer communication and quotation functions described in this policy. You may manage or revoke connected-app permissions through your Facebook or Instagram settings.</p>
 
-    <h2>Your Choices and Data Deletion</h2>
-    <p>You may revoke Shumi's access through your Facebook or Instagram settings. Instructions for requesting deletion of information stored by Shumi will be added before launch.</p>
+        <h2>6. Sharing and International Processing</h2>
+        <p>We do not sell personal data. We may share information only with employees and service providers who need it to operate the inquiry, quotation, hosting, communications, security, or order-fulfilment functions; with professional advisers; or where disclosure is required by law. Because we serve international customers and operate from China, information may be processed in China and in countries where our service providers operate. We apply reasonable safeguards appropriate to the information and the service.</p>
 
-    <h2>Changes to This Policy</h2>
-    <p>We may update this policy as the service changes. The updated version and its effective date will be published on this page.</p>
+        <h2>7. Retention and Security</h2>
+        <p>We retain inquiry and quotation information only for as long as reasonably necessary to respond, maintain the business relationship, support an order, meet legal or accounting requirements, resolve disputes, and protect the service. Retention periods may vary according to the nature of the inquiry and whether it results in an order. We use reasonable organizational and technical measures to guard against unauthorized access, loss, misuse, alteration, or disclosure.</p>
 
-    <h2>Contact Us</h2>
-    <p>Contact email: <strong>to be provided</strong></p>
+        <h2>8. Your Rights and Choices</h2>
+        <p>Subject to applicable law, you may request access to, correction of, or deletion of your information, object to or restrict certain processing, or withdraw consent where processing relies on consent. You may also stop communicating with the assistant and revoke the application's access through your Meta account settings.</p>
 
-    <footer>© 2026 Shumi. All rights reserved.</footer>
-  </main>
+        <div class="deletion" id="deletion">
+          <h2>9. User Data Deletion Instructions</h2>
+          <p>To request deletion of data held by Smile, contact us using the telephone number or website listed below. Please state that your request concerns <strong>Smile user data deletion</strong> and provide enough information for us to locate the relevant conversation, such as your Facebook or Instagram username and the approximate date of contact. Do not send your password.</p>
+          <p>After verifying the request, we will delete or anonymize data that we are not required to retain and confirm completion through an available contact channel. You can also remove the application's Meta access through Facebook or Instagram settings; this prevents future access but may not automatically delete records already retained by Smile.</p>
+        </div>
+
+        <h2>10. Children</h2>
+        <p>Our business-to-business product inquiry service is not directed to children. We do not knowingly collect personal data from children through this service.</p>
+
+        <h2>11. Changes</h2>
+        <p>We may update this policy when our services or legal obligations change. We will publish the revised policy on this page and update the effective date.</p>
+      </section>
+
+      <section class="cn" id="chinese" lang="zh-CN">
+        <h2>隐私政策（中文说明）</h2>
+        <p>本服务由 <strong>JIANGSU SMILE TOOLS CO., LTD.</strong> 运营，用于通过 Facebook、Instagram 及公司网站接收潜在客户咨询，自动介绍定制香薰产品、收集定制需求并协助生成报价。</p>
+
+        <h3>我们可能处理的信息</h3>
+        <p>根据您主动提交的内容以及 Meta 平台授权范围，我们可能处理您的姓名或用户名、账号标识、头像、消息与评论内容、公司及联系方式、所在国家、产品类型、香型、材质、包装、数量、目标价格、设计文件、样品和交付要求，以及与报价、订单和客户服务有关的记录。</p>
+
+        <h3>信息用途</h3>
+        <p>上述信息仅用于回复咨询、推荐产品与定制方案、准备报价、跟进样品与订单、提供售后服务、维护系统安全、改进客服质量，以及履行必要的法律、财务和争议处理义务。我们不会出售个人信息。自动生成的回复或报价可能需要工作人员确认，除非公司另行确认订单与商业条款，否则不会单独构成有约束力的销售合同。</p>
+
+        <h3>共享、跨境处理与保留</h3>
+        <p>仅在提供询价、报价、托管、通信、安全、生产及履约服务所必需的范围内，我们才会向获授权员工和服务提供商披露信息，或根据法律要求披露。由于公司位于中国并服务海外客户，信息可能在中国及服务提供商所在国家或地区处理。信息仅在回复咨询、维持业务关系、支持订单、履行法定或财务义务及处理争议所合理必要的期间内保留。</p>
+
+        <h3>您的权利与数据删除</h3>
+        <p>在适用法律允许的范围内，您可以要求查询、更正或删除信息，或撤回相关授权。如需删除 Smile 保存的数据，请通过下方公司电话或网站联系我们，并注明“Smile 用户数据删除请求”，同时提供用于定位对话所需的信息，例如 Facebook 或 Instagram 用户名及大致联系日期。请勿提供密码。核验后，我们会删除或匿名化依法无需继续保留的信息，并通过可用联系方式告知处理结果。您也可以在 Facebook 或 Instagram 设置中撤销应用访问权限。</p>
+      </section>
+
+      <section id="company">
+        <h2>Company Information / 公司信息</h2>
+        <div class="company">
+          <div class="card">
+            <strong>Legal name / 法定名称</strong>
+            JIANGSU SMILE TOOLS CO., LTD.
+          </div>
+          <div class="card">
+            <strong>Meta Business Portfolio</strong>
+            Smile · ID 2353703968178503
+          </div>
+          <div class="card">
+            <strong>Registration / Tax ID</strong>
+            91320303088140584F
+          </div>
+          <div class="card">
+            <strong>Telephone / 电话</strong>
+            <a href="tel:+8618852100157">+86 188 5210 0157</a>
+          </div>
+          <div class="card">
+            <strong>Website / 网站</strong>
+            <a href="https://candlewicktrimmer.com/" rel="noopener noreferrer">candlewicktrimmer.com</a>
+          </div>
+          <div class="card">
+            <strong>Address / 地址</strong>
+            Room 8-2-401, Liandong U Valley LEO Industrial Park, No. 18 Yinshan Road, Xuzhou High-Tech Industrial Development Zone, Tongshan District, Xuzhou, Jiangsu 221100, China
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>JIANGSU SMILE TOOLS CO., LTD.</strong></p>
+      <p class="small">For privacy questions or data deletion requests, contact us at <a href="tel:+8618852100157">+86 188 5210 0157</a> or through <a href="https://candlewicktrimmer.com/" rel="noopener noreferrer">our website</a>.</p>
+      <p class="small">© 2026 JIANGSU SMILE TOOLS CO., LTD. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>
