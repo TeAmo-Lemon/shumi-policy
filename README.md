@@ -1,24 +1,28 @@
-# Shumi Privacy Policy
+# Smile Privacy Policy
 
-A simple static privacy policy site prepared for Meta (Instagram/Facebook API) review.
+Public privacy policy and user data deletion instructions for the Smile automated customer inquiry and quotation assistant operated by JIANGSU SMILE TOOLS CO., LTD.
 
-## Publish with GitHub Pages
+The site is prepared for Meta (Facebook and Instagram API) application review.
 
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, select **Deploy from a branch**.
-3. Choose the `main` branch and the `/ (root)` folder, then save.
-4. The site will be available at:
+## GitHub Pages
 
-   https://teamo-lemon.github.io/shumi-policy/
+This repository is a static site. In **Settings → Pages**, select:
 
-## Before submission
+- Source: **Deploy from a branch**
+- Branch: **main**
+- Folder: **/ (root)**
 
-Replace the draft text in `index.html` with the final:
+Public URL:
 
-- application and operator name;
-- contact email;
-- Meta permissions and data categories;
-- purpose of each data category;
-- retention period and subprocessors;
-- data deletion instructions.
+https://teamo-lemon.github.io/shumi-policy/
 
+## Published information
+
+The page explains:
+
+- the service operator and company contact details;
+- customer and Meta platform data that may be processed;
+- automated product introduction and quotation purposes;
+- data sharing, international processing, retention, and security;
+- user choices and data deletion instructions;
+- English and Chinese versions of the core policy.
